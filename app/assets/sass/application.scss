@@ -22,28 +22,37 @@ $govuk-assets-path: '/govuk/assets/';
 * {
     font-family: "GDS Transport", arial, sans-serif;
 }
+
 a:visited {
     color: #1d70b8;
-}
-.govuk-heading-xl {
-    margin-bottom: 0;
 }
 
 h2 {
     font-size: 27px;
+    &.contents-heading {
+        font-size: 16px;
+        font-weight: normal;
+    }
 }
 
 h3 {
     font-size: 22px;
 }
 
+p {
+    &.lead-para {
+        font-size: 24px;
+        margin-bottom: 40px;
+    }
+}
+
 .menu-skips {
-    margin: 0 0 20px 0;
+    margin: 0 0 40px 0;
     padding: 0;
     list-style-type: none;
   li {
     padding: 7.5px 25px 0 25px;
-    font-size: 17px;
+    font-size: 16px;
     color: #0B0C0C;
     &:first-of-type {
         padding-top: 0;
@@ -57,7 +66,7 @@ h3 {
 }
 
 section {
-    border-top: 5px solid #003a69; 
+    border-top: 2px solid #0b0c0c; 
     margin: 30px 0;
     &#data {
         img {
